@@ -20,8 +20,9 @@ El esquema de la organización de las carpetas puede verse en **estructuraCarpet
     - **FlightsInc** Este archivo realiza el proceso de carga incremental para la tabla de hechos, utiliza el o los archivos presentes en la carpeta **flightInc** y agrega los datos a los ya presentes en el DW.
     - **GamatronETL.sln** Es la solución presentada. Al abrir este archivo Visual Studio presenta el proyecto completo.
 
-- **Imagenes** En esta carpeta se encuentran imagenes relacionadas al proyecto.
+- **Media** En esta carpeta se encuentran imagenes relacionadas al proyecto.
     - **DatabaseDiagram.png** El diagrama del DW propuesto para la solución
+	- **RH16005_solucion.mkv** Video con la descripción de la solución
 
 - **SQLscript** Esta carpeta contiene los script utilizados
     -   **GamatronDW_create.sql** Script que inicializa el DW, las dimensiones y la tabla de hechos con sus atributos.
