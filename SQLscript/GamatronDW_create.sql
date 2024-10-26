@@ -1,6 +1,6 @@
 --/* clean tables */
-drop TABLE IF EXISTS DimTiempo;
-drop TABLE IF EXISTS DimAerolinea;
+--drop TABLE IF EXISTS DimTiempo;
+--drop TABLE IF EXISTS DimAerolinea;
 drop TABLE IF EXISTS FactVuelo;
 
 /* DDL for the date dimension */
@@ -32,11 +32,13 @@ same_day_year_ago_date smalldatetime,
 primary key (date_key))
 ;
 
+
 CREATE TABLE DimAerolinea(
 	aerolineaKey int identity(1,1) PRIMARY KEY,
 	codigoAerolinea varchar(50),
 	nombreAerolinea varchar(100)
 );
+
 
 CREATE TABLE FactVuelo(
 	tiempoKey int,
