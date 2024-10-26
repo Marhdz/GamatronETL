@@ -22,7 +22,7 @@ El esquema de la organización de las carpetas puede verse en **estructuraCarpet
 
 - **Media** En esta carpeta se encuentran imagenes relacionadas al proyecto.
     - **DatabaseDiagram.png** El diagrama del DW propuesto para la solución
-	- **RH16005_solucion.mkv** Video con la descripción de la solución
+	- **[RH16005_solucion.mkv](https://tiuesedusv-my.sharepoint.com/:v:/g/personal/rh16005_ti_ues_edu_sv/ESMF3ghqIldNngWGPH28MkAB4LJj6G2DKIO8V1AIBDJDwQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=m6fY0s)** Video con la descripción de la solución.
 
 - **SQLscript** Esta carpeta contiene los script utilizados
     -   **GamatronDW_create.sql** Script que inicializa el DW, las dimensiones y la tabla de hechos con sus atributos.
