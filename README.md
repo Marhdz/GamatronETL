@@ -15,4 +15,15 @@ El esquema de la organización de las carpetas puede verse en **estructuraCarpet
 	- **readme.md** La información sobre los archivos de carga en formato .md
 
 - **GamatronETL**. Este folder contiene el proyecto realizado en VisualStudio y los componentes que han sido creados. Se mencionarán los elementos relevantes para esta presentación.
-	- 
+	- **Airline.dtsx** Este archivo es el ETL para los datos de aerolineas
+    - **FlightsFullData** Este archivo realiza el procesamiento de los datos completos para la tabla de hechos del DW. Procesa todos los datos históricos presentes en la carpeta **raw** razón por la cual toma mucho más tiempo que una carga incremental.
+    - **FlightsInc** Este archivo realiza el proceso de carga incremental para la tabla de hechos, utiliza el o los archivos presentes en la carpeta **flightInc** y agrega los datos a los ya presentes en el DW.
+    - **GamatronETL.sln** Es la solución presentada. Al abrir este archivo Visual Studio presenta el proyecto completo.
+
+- **Imagenes** En esta carpeta se encuentran imagenes relacionadas al proyecto.
+    - **DatabaseDiagram.png** El diagrama del DW propuesto para la solución
+
+- **SQLscript** Esta carpeta contiene los script utilizados
+    -   **GamatronDW_create.sql** Script que inicializa el DW, las dimensiones y la tabla de hechos con sus atributos.
+
+- **estructuraCarpetas.txt** Presenta un esquema con la organización de las carpetas aqui descritas.
